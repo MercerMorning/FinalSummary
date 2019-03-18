@@ -1,0 +1,76 @@
+@font-face {
+	font-family:"PT_Sans-Web-Regular";
+	src: url(fonts/PT_Sans-Web-Regular.svg);
+	src: url(fonts/PT_Sans-Web-Regular.woff);
+	src: url(fonts/PT_Sans-Web-Regular.ttf);
+	font-style: normal;
+font-weight: normal;
+}
+body {
+	width: 100%;
+	max-width: 1920px;
+	min-width: 320px;
+	margin: 90px;
+	max-height: 2716px;
+	min-height: 452px;
+	font-weight: lighter;
+  font-family: "PT_Sans-Web-Regular", sans-serif;
+}
+header {
+margin:0 auto;	
+}
+.firstblock {
+   width: 670px;
+   height: 450px;
+   border: 2px solid red;
+}
+.firstround {
+	width: 360px;
+  height: 360px;
+  border: 2px solid #3d6cb0;
+  border-radius: 50%;
+  line-height: 10em;  
+  margin: auto;
+  position: relative;
+  top: 45px;
+}
+.secondround {
+	width: 312px;
+	height: 312px;
+	border: 2px solid #3d6cb0;
+    border-radius: 50%;
+	line-height: 10em; 
+	margin: auto;
+	position: relative;
+    top: 22.5px;
+	background-color: #3d6cb0;
+}
+.secondblock {
+	width: 670px;
+	height: 252px;
+	border:2px solid red;
+}
+#pad {
+	margin-top: -18px;
+	text-align:center;
+	font-size: 80px;
+	font-weight: 100;
+}
+#pad2 {
+    margin-top: -100px;
+	text-align:center;
+	font-size: 95px;
+	font-weight: 800;
+}
+#pad3 {
+	margin-top: -30px;
+	text-align:center;
+	font-size: 38px;
+	font-weight:800;
+	margin-top: -63px;
+}
+.threeblock {
+	width: 670px;
+	height: 216px;
+	border:2px solid red;
+}

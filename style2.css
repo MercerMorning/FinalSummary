@@ -7,13 +7,10 @@
 font-weight: normal;
 }
 body {
-	width: 100%;
+	width: 80%;
 	max-width: 1920px;
 	min-width: 320px;
 	margin: 90px;
-	max-height: 2716px;
-	min-height: 452px;
-	font-weight: lighter;
   font-family: "PT_Sans-Web-Regular", sans-serif;
 }
 header {
@@ -42,7 +39,7 @@ margin:0 auto;
 	line-height: 10em; 
 	margin: auto;
 	position: relative;
-    top: 22.5px;
+    top: 19.5px;
 	background-color: #3d6cb0;
 }
 .secondblock {
@@ -73,4 +70,127 @@ margin:0 auto;
 	width: 670px;
 	height: 216px;
 	border:2px solid red;
+}
+.round1 {
+	width: 110px;
+  height: 110px;
+  border: 2px solid #3d6cb0;
+  border-radius: 50%;
+  line-height: 10em;  
+  margin-left:0;
+  position: relative;
+  top: 83px;
+}
+.round2 {
+	width: 100px;
+	height: 100px;
+	border: 2px solid #3d6cb0;
+    border-radius: 50%;
+	line-height: 10em;
+	position: relative;
+    margin:3px;
+	background-color: #3d6cb0;
+}
+.round1:after{
+  content:"PROFILE";
+  display:inline-block;
+  padding:10px 20px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(0,-50%);
+  white-space:nowrap;
+  height:30px;
+  line-height:30px;
+  margin-left:55px;
+  font-size: 60px;
+  font-weight: 800;
+  color: #3d6cb0;
+  letter-spacing: 2.5px;
+  
+
+}
+.body {
+	width: 50px;
+  height: 25px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background: white;
+  margin:auto;
+  position: relative;
+  top: 50px;
+}
+.head {
+	width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  line-height: 10em;  
+  margin: auto;
+  position: relative;
+  top: 0px;
+  background: white;
+}
+.cont {
+	position: relative;
+    padding-top: 30px;
+}
+.fourblock {
+	width: 670px;
+	height: 430px;
+	border:2px solid red;
+}
+.uc {
+   margin-top:-20px;
+   font-size:18px;
+   line-height: 1.6;
+   letter-spacing: -0.4px;
+}
+.fiveblock {
+	width: 670px;
+	height: 115px;
+	border:2px solid red;
+}
+#new {
+	top:0;
+	
+}
+img {
+	margin-left:16px;
+	filter:brightness(0) invert(1);
+}
+.sixblock { 
+    width: 670px;
+	height: 415px;
+	border:2px solid red;
+}	
+li {
+	line-height: 2.5;
+	list-style-type: none;
+	color: #3d6cb0;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-left: -35px;
+}
+li.one::after {
+	content:"Main Street, City";
+	color: black;
+	margin-left: 80px;
+}
+li.two::after {
+	content:"contact@domain.com";
+	color: black;
+	margin-left: 110px;
+}
+li.three::after {
+	content:"555-555-555";
+	color: black;
+	margin-left: 110px;
+}
+li.four::after {
+	content:"www.yourweb.com";
+	color: black;
+	margin-left: 90px;	
+}
+li::after {
+	font-weight:100;
 }
